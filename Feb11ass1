@@ -1,0 +1,10 @@
+studentName=input("Enter Student Name:")
+studentrollno=int(input("Enter Student rollno:"))
+studentmarks1=int(input("Enter Maths marks1:"))
+studentmarks2=int(input("Enter Statistics marks2:"))
+studentmarks3=int(input("Enter Computer Science marks3:"))
+total=studentmarks1+studentmarks2+studentmarks3
+if(total>=200 and total<=300):
+    print("pass")
+else:
+    print("fail")
