@@ -1,0 +1,22 @@
+studentname=input("Enter studentname:")
+studentrollno=int(input("Enter studentrollno:"))
+studentmarks1=int(input("Enter Maths marks:"))
+studentmarks2=int(input("Enter Statistics marks:"))
+studentmarks3=int(input("Enter ComputerScience marks:"))
+studentmarks4=int(input("Enter Telugu marks:"))
+studentmarks5=int(input("Enter English marks:"))
+studentmarks6=int(input("Enter Environmental marks:"))
+if(studentmarks1>=50):
+    print("Pass")
+elif(studentmark2>=50):
+    print("Pass")
+elif(studentmark3>=50):
+    print("Pass")
+elif(studentmark4>=50):
+    print("Pass")
+elif(studentmark5>=50):
+    print("Pass")
+elif(studentmark6>=50):
+    print("Pass")
+else:
+    print("Fail")
