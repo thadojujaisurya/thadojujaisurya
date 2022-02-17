@@ -1,0 +1,15 @@
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+n=int(input("Enter n value:"))
+j=a+b;
+print(a)
+print(b)
+d=0
+for i in range(a,n):
+    s=a+b
+    a=b
+    b=s
+    print(s)
+    d=d+s
+    total=d+j
+print("total",total)
