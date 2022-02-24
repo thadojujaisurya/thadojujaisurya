@@ -1,0 +1,13 @@
+NumList = []
+Number = int(input("Please enter the Total Number of List Elements: "))
+for i in range(1, Number + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    NumList.append(value)
+NumList.reverse()
+print("\nThe Result of a Reverse List =  ", NumList)  
+output:
+please enter the Total Number of List Elements: 4
+Please enter the Value of 1 Element : 3
+Please enter the Value of 2 Element : 5 
+Please enter the Value of 3 Element : 4
+Please enter the Value of 4 Element : 1
