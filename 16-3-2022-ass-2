@@ -1,0 +1,22 @@
+s=input("enter a number:")
+l1=[]
+l2=[]
+l3=[]
+for i in s:
+    e=int(i)
+    l1.append(e)
+print(l1)
+for j in l1:
+    if(j%2==0):
+        l2.append(j)
+    else:
+        l3.append(j)
+for i in l2:
+    print(i,end="  ")
+for j in l3:
+    print(j,end="")
+output:
+enter a number:1243536
+[1, 5, 9, 7, 6, 5, 5, 4, 4, 6, 5]
+6  4  4  6  
+1  5  9  7  5  5  5
