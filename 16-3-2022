@@ -1,0 +1,13 @@
+s=input('enter no:')
+l=list(s)
+print(l)
+res=[]
+for i in l:
+    if i not in res:
+        res.append(i)
+for i in res:
+    print(i,end='')
+
+output:enter no:159636951
+['1', '5', '9', '6', '3', '6', '9', '5', '1']
+15963
